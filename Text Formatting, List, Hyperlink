@@ -1,0 +1,60 @@
+# practical 3
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML with CSS Example</title>
+
+</head>
+
+<body>
+
+<h1>HTML and CSS Example</h1>
+
+<h2>Text Formatting</h2>
+<p><b>Bold Text</b></p>
+<p><i>Italic Text</i></p>
+<p><u>Underlined Text</u></p>
+<p><strong>Important Text</strong></p>
+
+<h2>Ordered List</h2>
+<ol>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ol> 
+
+<h2>Unordered List</h2>
+<ul>
+<li>Apple</li>
+<li>Mango</li>
+<li>Banana</li>
+</ul>
+
+<h2>Description List</h2>
+<dl>
+<dt>HTML</dt>
+<dd>HyperText Markup Language</dd>
+
+<dt>CSS</dt>
+<dd>Cascading Style Sheets</dd>
+</dl>
+
+<h2>Hyperlinks</h2>
+
+<p>External Link:</p>
+<a href="https://www.google.com">Visit Google</a>
+
+<p>Email Link:</p>
+<a href="mailto:vinitbodhe25@gmail.com">Send Email</a>
+
+<p>Internal Link:</p>
+<a href="https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=">Go to Image</a>
+
+<h2>Marquee</h2>
+<marquee>Welcome to My Website</marquee>
+
+<h2 id="img">Image</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="">
+
+</body>
+</html>
