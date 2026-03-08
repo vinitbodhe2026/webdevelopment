@@ -1,0 +1,114 @@
+# practical 4
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timetable and Student Data</title>
+    <style>
+        table {
+            border-collapse: collapse = "2";
+            width: 80%;
+            margin-bottom: 30px;
+        }
+        th, td {
+            border: 1px solid rgb(21, 20, 20);
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #c4e3f3;
+        }
+        
+    </style>
+</head>
+<body>
+
+<h2>Class Timetable</h2>
+<table>
+    <tr>
+        <th>Day</th>
+        <th>10:30 - 11:30</th>
+        <th>11:30 - 12:30</th>
+        <th>12:00 - 01:30</th>
+        <th>01:30 - 02:30</th>
+        <th>02:30 - 03:30</th>
+        <th>03:30 - 04:30</th>
+        <th>04:30 - 05:30</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td colspan="2">Practical (APL) </td>
+        <td> LLC </td>
+        <td rowspan="6">Recess</td>
+        <td> ICAL </td>
+        <td colspan="2"> Practical (SMPL) </td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td>ICAL</td>
+        <td>AP</td>
+        <td>LLC</td>
+        <td colspan="2">Practical (WEDL) </td>
+        <td> Sports </td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>IKS</td>
+        <td colspan="2">Practical (WEDL) </td>
+        <td>AP</td>
+        <td>ICAL</td>
+        <td>NPTEL</td>
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td colspan="2"> EGDL </td>
+        <td> ICAL </td>
+        <td colspan="2">Practical (APL) </td>
+        <td> LLC </td>
+    </tr>
+    <tr>
+        <td>Friday</td>
+        <td> ICAL </td>
+        <td colspan="2"> EGDL </td>
+        <td> SMP </td>
+        <td> IKS </td>
+        <td> TG </td>
+    </tr>
+    <tr>
+        <td> Saturday </td>
+        <td  colspan="2"> EGD</td>
+        <td> SL </td>
+        <td>SMP</td>
+        <td colspan="2">MC</td>
+    </tr>
+</table>
+
+<h2>Student Data</h2>
+<table>
+    <tr>
+        <th>Roll No.</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>123</td>
+        <td>Vinit</td>
+        <td>15</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>124</td>
+        <td>Rahul</td>
+        <td>15</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>126</td>
+        <td>Prajwal</td>
+        <td>15</td>
+        <td>A</td>
+    </tr>
+</table>
+
+</body>
+</html>
