@@ -1,0 +1,98 @@
+# practical 5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #e6f0f1;
+        }
+        h1,h2{
+            text-align: center;
+            color: #262424;
+        }
+        img{
+            width:150px;
+            border-radius:10px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table, th, td{
+            border:1px solid black;
+            padding:8px;
+            text-align:center;
+        }
+        a{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<h1>My Resume</h1>
+
+<!-- Image -->
+<img src="https://media.istockphoto.com/id/1695144958/vector/business-avatar-user-profile-icon-business-leader-profile-picture-portrait-user-member.jpg?s=612x612&w=0&k=20&c=RFQgkPY5IbfCSvCZCSVJm3oU7JVsOuw1nEeY1K8_iCU=" alt="Profile Photo">
+
+<h2>Personal Information</h2>
+<ul>
+    <li><b>Name:</b> Vinit Bodhe</li>
+    <li><b>Email:</b> vinitbodhe@email.com</li>
+    <li><b>Phone:</b> 93******79</li>
+    <li><b>Location:</b> Maharashtra, India</li>
+</ul>
+
+<h2>Career Objective</h2>
+<p>To obtain a challenging position in web development where I can use my HTML, CSS, and programming skills.</p>
+
+<h2>Education</h2>
+
+<table>
+<tr>
+    <th>Qualification</th>
+    <th>College/School</th>
+    <th>Year</th>
+    <th>Percentage</th>
+</tr>
+
+<tr>
+    <td>B-Tech</td>
+    <td>SBJIT College</td>
+    <td>2025-26</td>
+    <td>8.5 SGPA</td>
+</tr>
+
+<tr>
+    <td>HSC</td>
+    <td>KZS College</td>
+    <td>2025</td>
+    <td>75%</td>
+</tr>
+
+<tr>
+    <td>SSC</td>
+    <td>Municipal School</td>
+    <td>2023</td>
+    <td>85%</td>
+</tr>
+</table>
+
+<h2>Skills</h2>
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript Basics</li>
+    <li>Git & GitHub</li>
+</ul>
+
+<h2>Projects</h2>
+<ol>
+    <li>Personal Portfolio Website</li>
+    <li>Student Management System</li>
+</ol>
+
